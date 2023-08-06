@@ -18,10 +18,10 @@ class Solution
         }
         int finalBin=decimal1+decimal2;
         String binary="";
-        while(final!=0 || final!=1)
+        while(finalBin!=0 || finalBin!=1)
         {
-            binary+=""+final%2;
-            final=final/2;
+            binary+=""+finalBin%2;
+            finalBin=finalBin/2;
         }
         if(final==1)
         {
